@@ -1,6 +1,7 @@
-﻿a = ''
-for _ in range(3):
-    for i in range (0, 1):
-        a += input()[i]
+﻿name = input()
 
-print(a)
+if name == 'Малёк':
+    print(f'Здравствуй, {name}, я так скучала!')
+    exit(0)
+
+print('Уходите, я вас не знаю!')
